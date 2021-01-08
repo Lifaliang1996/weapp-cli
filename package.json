@@ -10,13 +10,13 @@
     "weixin",
     "wechat"
   ],
-  "homepage": "https://github.com/lfl/weapp-cli#readme",
+  "homepage": "https://github.com/Lifaliang1996/weapp-cli#readme",
   "bugs": {
-    "url": "https://github.com/lfl/weapp-cli/issues"
+    "url": "https://github.com/Lifaliang1996/weapp-cli/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lfl/weapp-cli.git"
+    "url": "git+https://github.com/Lifaliang1996/weapp-cli.git"
   },
   "license": "MIT",
   "author": {
