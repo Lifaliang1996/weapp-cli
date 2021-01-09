@@ -1,4 +1,4 @@
-# @weapp/cli
+# weapp-cli
 
 [![License][license-img]][license-url]
 [![NPM Downloads][downloads-img]][downloads-url]
