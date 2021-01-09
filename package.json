@@ -1,7 +1,7 @@
 {
-  "name": "@lfl/weapp-cli",
+  "name": "weapp-cli",
   "version": "0.1.0",
-  "description": "A cli application for wechat weapp",
+  "description": "A cli application for wechat mini program",
   "keywords": [
     "cli",
     "weapp-cli",
