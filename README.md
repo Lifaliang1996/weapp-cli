@@ -11,7 +11,7 @@
 
 ## 介绍
 
-此工具基于 [Gulp](https://gulpjs.com/) 开发，简单易用，适合原生小程序。
+此工具项目结构使用 [caz](https://github.com/zce/caz) 创建，核心功能基于 [Gulp](https://gulpjs.com/) 开发，简单易用，适合原生小程序。
 
 欢迎提交 [Issues](https://github.com/Lifaliang1996/weapp-cli/issues) 或 [PR](https://github.com/Lifaliang1996/weapp-cli/pulls) 。
 
