@@ -22,13 +22,13 @@
 ### NPM
 
 ```bash
-npm install @weapp/cli -g
+npm install weapp-cli -g
 ```
 
 ### Yarn
 
 ```bash
-yarn global add @weapp/cli
+yarn global add weapp-cli
 ```
 
 ## 创建项目
