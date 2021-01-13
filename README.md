@@ -39,29 +39,29 @@ weapp create <project-name>
 以下是项目的目录结构：
 
 ```tex
-|- miniprogram				# 处理后的文件，与 src 目录结构一致，小程序将编译此目录。
-|- src						# 源代码目录。
-  |- components				# 自定义组件。
-  |- pages					# 页面文件。
-  |- typings				# type 定义文件，仅在 ts 项目中存在。
+|- miniprogram              # 后的文件，与 src 目录结构一致，小程序将编译此目录。
+|- src                      # 源代码目录。
+  |- components             # 自定义组件。
+  |- pages                  # 页面文件。
+  |- typings                # type 定义文件，仅在 ts 项目中存在。
   |- app.json
   |- app.{wxss,less,scss}
   |- app.{js,ts}
   |- sitmap.json
 |- package.json
-|- project.config.json		# 小程序配置文件。
-|- tsconfig.json			# ts 配置文件，仅在 ts 项目中存在。			
-|- weapp.config.js			# 此工具的配置文件。
+|- project.config.json      # 小程序配置文件。
+|- tsconfig.json            # ts 配置文件，仅在 ts 项目中存在。			
+|- weapp.config.js          # 此工具的配置文件。
 ```
 
 ```js
 // weapp.config.js
 
 module.exports = {
-  style: 'scss',  						// 项目使用的样式编写方式：wxss/less/scss
-  script: 'ts',  						// 项目使用的脚本编写方式：js/ts
-  css: ['~/styles/variable.scss'],		// 全局样式注入，详细参见后面
-  page: 'home'							// 单页编译，详细参见后面
+  style: 'scss',                        // 项目使用的样式编写方式：wxss/less/scss
+  script: 'ts',                         // 项目使用的脚本编写方式：js/ts
+  css: ['~/styles/variable.scss'],      // 全局样式注入，详细参见后面
+  page: 'home'                          // 单页编译，详细参见后面
 }
 ```
 
@@ -171,7 +171,7 @@ weapp component <component-name>
 
 或使用简写：
 
-```
+```bash
 weapp cpt <component-name>
 ```
 
@@ -185,7 +185,7 @@ weapp component <page-name>
 
 或使用简写：
 
-```
+```bash
 weapp p <page-name>
 ```
 
